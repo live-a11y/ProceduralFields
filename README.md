@@ -1,12 +1,13 @@
 # Procedural Fields
 
-Small C++ externals for Max/MSP/Jitter: procedural geometry, noise, harmonic motion, control analysis, and audio-reactive features.
+C++ externals for Max/MSP/Jitter: procedural geometry, noise, harmonic motion, control analysis, and audio-reactive features.
 
 ![Procedural Fields](media/20_ProceduralFields_System_Showcase.gif)
 
 ## Externals
 
 ### Jitter
+
 - `jit.lh.arraylayout`
 - `jit.lh.radialdistort`
 - `jit.lh.noise3d`
@@ -15,6 +16,7 @@ Small C++ externals for Max/MSP/Jitter: procedural geometry, noise, harmonic mot
 - `jit.lh.noisebuffer`
 
 ### Max
+
 - `lh.noisegenerator`
 - `lh.harmonicdeformer`
 - `lh.valuewatcher`
@@ -22,13 +24,22 @@ Small C++ externals for Max/MSP/Jitter: procedural geometry, noise, harmonic mot
 - `lh.mix`
 
 ### MSP
+
 - `lh.pcmfeatures~`
 - `lh.multiband~`
 - `lh.multibandfeatures~`
 
 ## Download
 
-Prebuilt universal macOS externals (`x86_64 + arm64`) are in [`externals/`](externals/).
+Prebuilt universal macOS externals (`x86_64 + arm64`) are available in [`externals/`](externals/).
+
+Put the `.mxo` bundles somewhere in Max's search path, or inside your own Max package/folder.
+
+If macOS blocks a downloaded external because of quarantine, remove the quarantine attribute from the downloaded folder:
+
+```bash
+xattr -dr com.apple.quarantine /path/to/externals
+```
 
 ## Showcases
 
@@ -38,4 +49,6 @@ Prebuilt universal macOS externals (`x86_64 + arm64`) are in [`externals/`](exte
 
 ![Harmonic field](media/10_HarmonicField_Showcase.gif)
 
-Shared as-is.
+## Status
+
+Shared as-is as part of an ongoing computational practice. No support schedule or compatibility commitment is implied.
