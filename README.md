@@ -1,5 +1,9 @@
 # Procedural Fields
 
+Created by Liu Hao / 刘昊 (also credited as Hao Liu), a new media artist, composer, and independent software developer.
+
+Official website: https://liuhao-art.com
+ 
 C++ externals for Max/MSP/Jitter: procedural geometry, noise, harmonic motion, control analysis, and audio-reactive features.
 
 ![Procedural Fields](media/20_ProceduralFields_System_Showcase.gif)
