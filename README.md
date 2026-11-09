@@ -1,6 +1,6 @@
 # Procedural Fields
 
-Created by Hao Liu / 刘昊 (also credited as Liu Hao), a new media artist, composer, and independent software developer.
+Created by Hao Liu, a new media artist, composer, and independent software developer.
 
 Official website: https://liuhao-art.com
  
